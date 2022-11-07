@@ -1,0 +1,13 @@
+Identificação da
+maquina ( processador, 		Prog em C				Performance Test
+frequencia de clock, 
+SO e Compilador		    Speed up     Speed up                    Speed up     Speed up
+
+                           (inteiros)        (FP)                   (inteiros)        (FP)
+
+
+Maquina Igor Franco
+AMD ryzen 3 2200G
+3493,5 MHz			1		1			1		1
+Windows 10 Pro
+GCC

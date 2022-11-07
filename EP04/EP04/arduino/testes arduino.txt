@@ -1,0 +1,30 @@
+
+	                  i op 3
+      tempo b        soma         or          mult
+byte  2399568	     2526092	  2715296     2652156
+int   2589004	     2841828	  2210124     3031032
+float 2967880        12690176     xxxxxxx     10608752
+
+
+
+	                  i op j
+      tempo b        soma         or          mult
+byte  2462716	     2652156	  2841596     2841596
+int   2462940	     3094168	  3220468     3599348
+float 3220472        12690176     xxxxxxx     10608752
+
+
+	                            MIPS
+	        constante                           varaivel   
+         soma       or       mult          soma        or       mult
+byte    7,9036    3,1672    3,9590        5,2787     2,6393    2,6393
+int     3,9553	  4,5246    2,2623	  1,5842     1,3200    0,8979
+
+
+	                            CPI
+	        constante                           varaivel   
+         soma       or       mult          soma        or       mult
+byte    4,0417    4,3444    4,2439        4,9506     4,3444    4,5465
+int     4,5469	  3,5361    4,8496	  4,9506     5,1527    5,7589
+
+
